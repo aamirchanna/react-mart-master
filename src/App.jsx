@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes, BrowserRouter } from "react-router-dom";
 import Home from "./pages/Home";
 import Products from "./pages/Products";  // Ensure this is correct
 
@@ -10,13 +10,13 @@ import "./index.css";  // Your existing CSS files
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter>
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/products" element={<Products />} />
       </Routes>
-    </Router>
+    </BrowserRouter>
   );
 }
 
