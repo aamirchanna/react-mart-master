@@ -1,8 +1,15 @@
+import Footer from "../components/footer";
+
+import HomePage from "../components/HomePage";
+
 function Homepage() {
   return (
-    <h1>Home
-    <p>Click on Products to see our products</p>
-    </h1>
+    <div>
+    
+    <HomePage/>
+
+    <Footer/>
+    </div>
   );
 }
 
