@@ -1,7 +1,8 @@
 
+
 function Footer() {
     return (
-        <div>
+      
      <footer className="bg-gray-800 w-full text-white body-font">
       <div className="container  py-8 px-5 flex flex-wrap  items-center">
         <div className="flex md:flex-nowrap flex-wrap justify-center items-end md:justify-start">
@@ -56,7 +57,7 @@ function Footer() {
 
 
 
-        </div>
+      
     );
 }
 

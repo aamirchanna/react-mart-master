@@ -2,7 +2,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import ProductCard from "../components/ProductCard";
 import AlphabetChip from "../components/AlphabetChip"; // Updated to AlphabetChip
-import Footer from "../components/footer";
+// import Footer from "../components/Footer";
 
 const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
 
@@ -69,7 +69,8 @@ function Products() {
           </div>
         </div>
       )}
-      <Footer/>
+     
+     
     </div>
   );
 }
