@@ -2,7 +2,7 @@ import Footer from "../components/footer";
 
 import HomePage from "../components/HomePage";
 
-function Homepage() {
+function Home() {
   return (
     <div>
     
@@ -13,4 +13,4 @@ function Homepage() {
   );
 }
 
-export default Homepage;
+export default Home;
