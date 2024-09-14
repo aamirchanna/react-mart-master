@@ -2,6 +2,7 @@ import React from "react";
 import Banner from "./Banner";
 import FeaturedProducts from "./FeaturedProduct";
 import ReviewSection from "./Reviews";
+import Footer from "./footer";
 
 function HomePage() {
   const products = [
@@ -56,6 +57,8 @@ function HomePage() {
     
     <FeaturedProducts/>
     <ReviewSection/>
+    
+    <Footer/>
     
     </div>
   );
